@@ -46,7 +46,7 @@ const Board = props => {
         checkers.find(c => c.id === card.id) ||
         completed.includes(card.type),
     }))
-    setCards(newCards)
+    setCards(newCards);
   }, [checkers, completed])
 
   return (
