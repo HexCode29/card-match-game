@@ -9,20 +9,12 @@ body {
 
 .App{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  width: 100%;
 }
 
 #main{
-  margin-left: 20%;
-}
-
-#select{
-  margin-top: 20%;
-  margin-left: 20%;
-}
-
-select{
-  padding: 9px 23px;
   margin: 0 auto;
 }
 
@@ -33,6 +25,7 @@ select{
   line-height: 16px;
   margin-left: 10px;
   margin-right: 8px;
+  margin-bottom: 10px;
   min-width: 96px;
   padding: 9px 23px;
   text-align: center;
@@ -44,4 +37,6 @@ select{
   border: 1px solid transparent;
   background-color: #dc3545;
   color: white;
+  outline: none;
+  cursor: pointer;
 }
